@@ -2,7 +2,26 @@
 //--//-->   STYLES GENERALES
 ======================================*/
 
-.navbar-b.navbar-trans .nav-link {
+navbar-b.navbar-reduce .show>.nav-link,
+.navbar-b.navbar-reduce .active>.nav-link,
+.navbar-b.navbar-reduce .nav-link.show,
+.navbar-b.navbar-reduce .nav-link.active {
+    color: rgb(0, 120, 255);
+}
+
+.navbar-b.navbar-reduce .show>.nav-link,
+.navbar-b.navbar-reduce .active>.nav-link,
+.navbar-b.navbar-reduce .nav-link.show,
+.navbar-b.navbar-reduce .nav-link.active {
+    color: #0078ff;
+}
+
+.navbar-b.navbar-reduce .nav-link {
+    color: #0078ff;
+}
+
+.navbar-b.navbar-trans .nav-link,
+.navbar-b.navbar-reduce .nav-link {
     color: #fff;
     text-transform: uppercase;
     font-weight: 600;
@@ -873,15 +892,26 @@ a:hover {
     animation-name: fadeInUp;
 }
 
-.navbar-b.navbar-trans .nav-link {
+.navbar-b.navbar-reduce {
+    transition: all 0.5s ease-in-out;
+    background-color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.navbar-b.navbar-reduce {
+    box-shadow: 0px 6px 9px 0px rgb(0 0 0 / 6%);
+}
+
+.navbar-b.navbar-reduce .nav-link {
+    color: #0078ff;
+}
+
+.navbar-b.navbar-trans .nav-link,
+.navbar-b.navbar-reduce .nav-link {
     color: #0078ff;
     text-transform: uppercase;
     font-weight: 600;
-}
-
-@media (min-width: 768px) .navbar-expand-md .navbar-nav .nav-link {
-    padding-right: 0.5rem;
-    padding-left: 0.5rem;
 }
 
 .navbar-nav .nav-link {
@@ -905,6 +935,10 @@ a {
 ::after,
 ::before {
     box-sizing: border-box;
+}
+
+.navbar-b.navbar-reduce .navbar-brand {
+    color: #0078ff;
 }
 
 .navbar-b .navbar-brand {
@@ -941,6 +975,12 @@ a {
     box-sizing: border-box;
 }
 
+user agent stylesheet a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
 a {
     color: #007bff;
     text-decoration: none;
@@ -952,4 +992,26 @@ a {
 ::after,
 ::before {
     box-sizing: border-box;
+}
+
+.navbar-b.navbar-reduce .show>.nav-link,
+.navbar-b.navbar-reduce .active>.nav-link,
+.navbar-b.navbar-reduce .nav-link.show,
+.navbar-b.navbar-reduce .nav-link.active {
+    color: #0078ff;
+}
+
+navbar-b.navbar-reduce .nav-link.active:before {
+    width: 35px;
+}
+
+.navbar-b.navbar-reduce .nav-link:before {
+    background-color: #0078ff;
+}
+
+navbar-b.navbar-reduce .show>.nav-link,
+.navbar-b.navbar-reduce .active>.nav-link,
+.navbar-b.navbar-reduce .nav-link.show,
+.navbar-b.navbar-reduce .nav-link.active {
+    color: rgb(0, 120, 255);
 }
