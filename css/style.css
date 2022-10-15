@@ -2,6 +2,39 @@
 //--//-->   STYLES GENERALES
 ======================================*/
 
+.navbar-b.navbar-trans .nav-link {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+@media (min-width: 768px) .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+a {
+    color: #1e1e1e;
+    transition: all 0.5s ease-in-out;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
 html,
 body {
     max-width: 100%;
@@ -73,11 +106,9 @@ PROGRESS BAR
     margin-top: 10px;
 }
 
-
 .py-5 {
     padding-bottom: 3rem !important;
 }
-
 
 .py-5 {
     padding-top: 1.5rem !important;
@@ -234,7 +265,6 @@ a:hover {
     color: #f5f5f5;
 }
 
-
 .service-box {
     box-shadow: 0 13px 8px -10px rgba(0, 0, 0, 0.1);
 }
@@ -251,7 +281,6 @@ a:hover {
     text-align: center;
     margin-right: 50px;
 } */
-
 
 .button:hover {
     box-shadow: 0 0 0 4px #cde1f8;
@@ -466,7 +495,6 @@ a:hover {
     width: 35px;
 }
 
-
 .navbar-b.navbar-trans .active>.nav-link:before,
 .navbar-b.navbar-trans .nav-link.active:before {
     width: 35px;
@@ -479,7 +507,6 @@ a:hover {
 .navbar-b.navbar-trans .nav-link:hover {
     color: #0078ff;
 }
-
 
 .navbar-b.navbar-trans .active>.nav-link,
 .navbar-b.navbar-trans .nav-link.active {
@@ -844,4 +871,85 @@ a:hover {
 .fadeInUp {
     -webkit-animation-name: fadeInUp;
     animation-name: fadeInUp;
+}
+
+.navbar-b.navbar-trans .nav-link {
+    color: #0078ff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+@media (min-width: 768px) .navbar-expand-md .navbar-nav .nav-link {
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.navbar-nav .nav-link {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+.nav-link {
+    display: block;
+    padding: 0.5rem 1rem;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+.navbar-b .navbar-brand {
+    color: #0078ff;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.navbar-brand {
+    display: inline-block;
+    padding-top: 0.3125rem;
+    padding-bottom: 0.3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+a {
+    color: #1e1e1e;
+    transition: all 0.5s ease-in-out;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    -webkit-text-decoration-skip: objects;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
 }
