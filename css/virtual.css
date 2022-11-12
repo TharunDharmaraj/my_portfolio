@@ -113,21 +113,21 @@ a:active {
     margin: 5px;
     height: unset;
     background-color: transparent;
-    color: #747474;
+    color: #0078ff;
     border: 0;
     font-weight: 500;
-    box-shadow: 0 0 0 2px #747474;
+    box-shadow: 0 0 0 2px #0078ff;
 }
 
 .btn-theme-outline:hover {
-    background-color: #747474;
+    background-color: #0078ff;
     color: #fff;
 }
 
 .btn-theme-outline:focus {
-    background-color: #747474;
+    background-color: #0078ff;
     color: #fff;
-    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #747474;
+    box-shadow: 0 0 0 3px #fff, 0 0 0 5px #0078ff;
 }
 
 
@@ -169,7 +169,7 @@ a:active {
     height: 1.25rem;
     border: 2px solid #fff;
     background-color: #fff;
-    box-shadow: 0 0 0 2px #747474;
+    box-shadow: 0 0 0 2px #0078ff;
 }
 
 .progress,
@@ -179,7 +179,7 @@ a:active {
 
 .progress-bar {
     font-size: 12px;
-    background-color: #747474;
+    background-color: #0078ff;
 }
 
 
