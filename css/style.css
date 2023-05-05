@@ -2,6 +2,78 @@
 //--//-->   STYLES GENERALES
 ======================================*/
 
+.reveal {
+  position: relative;
+  opacity: 0;
+}
+
+.reveal.active {
+  opacity: 1;
+}
+.active.fade-bottom {
+  animation: fade-bottom 1s ease-in;
+}
+.active.fade-left {
+  animation: fade-left 1s ease-in;
+}
+.active.fade-right {
+  animation: fade-right 1s ease-in;
+}
+@keyframes fade-bottom {
+  0% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-left {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes fade-right {
+  0% {
+    transform: translateX(+100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+::-webkit-scrollbar {
+  overflow:auto;
+
+  width: .4rem;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  overflow:auto;
+  background: #0078ff; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  overflow:auto;
+
+  background: #519aed; 
+}
 navbar-b.navbar-reduce .show > .nav-link,
 .navbar-b.navbar-reduce .active > .nav-link,
 .navbar-b.navbar-reduce .nav-link.show,
@@ -1243,52 +1315,4 @@ a:hover {
 
 .navbar-b .dropdown-menu .dropdown-item.active {
   background-color: #0078ff;
-}
-.reveal {
-  position: relative;
-  opacity: 0;
-}
-
-.reveal.active {
-  opacity: 1;
-}
-.active.fade-bottom {
-  animation: fade-bottom 1s ease-in;
-}
-.active.fade-left {
-  animation: fade-left 1s ease-in;
-}
-.active.fade-right {
-  animation: fade-right 1s ease-in;
-}
-@keyframes fade-bottom {
-  0% {
-    transform: translateY(100px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-@keyframes fade-left {
-  0% {
-    transform: translateX(-100px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-
-@keyframes fade-right {
-  0% {
-    transform: translateX(+100px);
-    opacity: 0;
-  }
-  100% {
-    transform: translateX(0);
-    opacity: 1;
-  }
 }
