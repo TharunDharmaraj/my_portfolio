@@ -43,19 +43,22 @@
       type="text/css"
       href="lib/nice-select/css/nice-select.css"
     />
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-KR4R2BHVWY"></script>
-
   </head>
+  <!-- Google tag (gtag.js) -->
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-KR4R2BHVWY"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-  <body id="page-top"  style="overflow: auto">
-    <!-- Google tag (gtag.js) -->
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-KR4R2BHVWY');
-</script>
+    gtag("config", "G-KR4R2BHVWY");
+  </script>
+  <body id="page-top" style="overflow: auto">
     <!--/ Nav Star /-->
     <nav
       class="navbar navbar-b navbar-trans navbar-expand-md fixed-top"
@@ -182,10 +185,8 @@
       </div>
     </div>
 
-      
-
-       <!--/ AREA OF INTEREST/-->
-    <section id="service" class="services-mf route  reveal fade-right">
+    <!--/ AREA OF INTEREST/-->
+    <section id="service" class="services-mf route reveal fade-right">
       <div class="container">
         <div class="row">
           <div class="col-sm-12">
@@ -237,7 +238,7 @@
         </div>
       </div>
     </section>
-           <!--/ END OF AREA OF INTEREST/-->
+    <!--/ END OF AREA OF INTEREST/-->
 
     <!-- My Tools -->
     <div class="vg-page page-service reveal fade-right" id="tools">
@@ -322,10 +323,10 @@
       </div>
     </div>
     <!-- End of My Tools -->
-    
-      <!-- My Projects -->
+
+    <!-- My Projects -->
     <!-- Portfolio page -->
-<div class="vg-page page-portfolio reveal fade-left" id="portfolio">
+    <div class="vg-page page-portfolio reveal fade-left" id="portfolio">
       <div class="container">
         <div class="text-center wow fadeInUp">
           <div class="badge badge-subhead">Portfolio</div>
@@ -443,7 +444,7 @@
           </div>
         </div>
       </div>
-    </div>    
+    </div>
     <!-- End Portfolio page -->
     <!-- MY SKILLS
     
@@ -630,13 +631,11 @@
         </div>
       </div>
     </div>
- 
 
     <!-- Footer -->
-    <div class="footer  reveal fade-left" id="contact">
+    <div class="footer reveal fade-left" id="contact">
       <div class="container">
         <div class="row">
-      
           <div class="col-md-6">
             <div class="footer-col last">
               <h4>
@@ -702,7 +701,6 @@
                   <i class="fab fa-instagram fa-stack-1x"></i>
                 </a>
               </span>
-              
             </div>
           </div>
           <!-- end of col -->
@@ -760,6 +758,5 @@
     <script src="js/wow/wow.min.js"></script>
     <script src="lib/typed/typed.min.js"></script>
     <script src="js/main.js"></script>
-    
   </body>
 </html>
